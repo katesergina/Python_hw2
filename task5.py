@@ -7,7 +7,7 @@ def shuffle_list(lst):
         j = random.randint(0, i + 1)
         lst[i], lst[j] = lst[j], lst[i]
 
-lst = [random.randint(0,10) for i in range(random.randint(5,20))]
+lst = [random.randint(0,10) for i in range(random.randint(1,20))]
 print(lst)
 shuffle_list(lst)
 print(lst)
